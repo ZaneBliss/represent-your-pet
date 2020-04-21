@@ -7,5 +7,10 @@ const beamer = {
         "Stupid Cat",
         "Moldy cheeto"
     ],
-    age: "unknown"
+    age: "unknown",
+    // Actions
+    beg: function() { window.alert("MEOW!") },
+    eat: function() { window.alert("Eating food. Yum.")},
+    sleep: function() { window.alert("Fully asleep. Zzz")}
 }
+
